@@ -61,17 +61,17 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/TextView_segundos"
+            android:text="@string/TextView_mensaje"
             android:textSize="28sp"
             android:layout_gravity="center"
             />
         <EditText
-            android:id="@+id/text_segundos"
+            android:id="@+id/text_mensaje"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:inputType="number" />
+            android:inputType="text" />
 
     </LinearLayout>
 
@@ -82,6 +82,7 @@
         android:orientation="vertical">
 
         <Button
+            android:id="@+id/botonSetAlarm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"

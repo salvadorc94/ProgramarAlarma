@@ -2,8 +2,15 @@ package com.salvador.programaralarma;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
+
+    Button setAlarm;
+    EditText hora;
+    EditText minuto;
+    EditText mensaje;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

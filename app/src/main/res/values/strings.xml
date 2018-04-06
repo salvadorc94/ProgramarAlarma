@@ -2,6 +2,6 @@
     <string name="app_name">ProgramarAlarma</string>
     <string name="TextView_hora">Insert Hour</string>
     <string name="TextView_minutos">Insert Minutes</string>
-    <string name="TextView_segundos">Insert Seconds</string>
+    <string name="TextView_mensaje">Insert Message</string>
     <string name="botonAlarma_texto">SET ALARM</string>
 </resources>
