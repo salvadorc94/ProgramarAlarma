@@ -39,6 +39,10 @@ public class MainActivity extends AppCompatActivity {
 
                     if (sendIntent.resolveActivity(getPackageManager()) != null){
                         startActivity(sendIntent);
+                        mensaje.setText("");
+                        minuto.setText("");
+                        hora.setText("");
+                        hora.requestFocus();
                     }
                 }
 
