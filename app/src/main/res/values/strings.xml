@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ProgramarAlarma</string>
+    <string name="app_name">SetAlarm</string>
     <string name="TextView_hora">Insert Hour</string>
     <string name="TextView_minutos">Insert Minutes</string>
     <string name="TextView_mensaje">Insert Message</string>
